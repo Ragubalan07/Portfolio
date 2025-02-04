@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ragubalan - Portfolio Website">
+  <title>Ragubalan - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Ragubalan</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to my portfolio</h2>
+      <p>I design beautiful websites and digital experiences.</p>
+      <a href="#portfolio" class="cta-button">See My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <!-- Personal Photo -->
+        <div class="about-photo">
+          <img src="photo.jpg" alt="Ragubalan's Photo" height="300" width="300">
+        </div>
+        <p>Hello, I'm Ragubalan. I'm a web designer and developer with a passion for creating clean, functional websites. I focus on providing visually appealing and user-friendly designs that work seamlessly across devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>My Work</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <p>Project 1: Web Design for an E-Commerce Site</p>
+        </div>
+        <div class="portfolio-item">
+          <p>Project 2: Personal Blog Development</p>
+        </div>
+        <div class="portfolio-item">
+          <p>Project 3: UI/UX Redesign for a Mobile App</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Ragubalan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
